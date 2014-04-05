@@ -1,0 +1,18 @@
+/*global email, $*/
+
+
+window.email = {
+    Models: {},
+    Collections: {},
+    Views: {},
+    Routers: {},
+    init: function () {
+        'use strict';
+        console.log('Hello from Backbone!');
+    }
+};
+
+$(document).ready(function () {
+    'use strict';
+    email.init();
+});
